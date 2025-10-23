@@ -5,8 +5,8 @@
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- `Nombre 1`  : Julia Wagner
+- `Nombre 2` : Francisco Scarinci
 
 
 ---
@@ -14,11 +14,11 @@
 
 ## **`Semana 1`**
 
-**`Fecha:`**
+**`Fecha:`22/10/25**
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
+- `Actividad 1`  :Nos corrigio las ideas, vamos a hacer 2 semaforos en forma de interseccion con 1 pulsador peatonal cada uno 1 potenciometro cada uno y un sensor de temperatra cada uno.
 - `Actividad 2`
 
 **`Dificultades:`**
