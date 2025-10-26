@@ -8,33 +8,39 @@ La señal que utiliza para comunicarse con arduino es una señal digital.
 El rango de valores que puede entregar o recibir el componente es 0 y 1.
 
 4. ¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
-Tiene 4 pines que estan conectados eléctricamente y paralelamente (||), su función es conducir la electricidad y cuando el pulsador es presionado se cierra el circuito.
+Tiene 2 pines
+1 es el pin que lo conecta al arduino
+El otro lo conecta al GND
 
 5. ¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
-Usamos el pin 2 porque nos queda comodo para el boton.
+Usamos el pin 2 porque nos queda comodo para el circuito en general.
 
 6. Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-Arduino (GND)--->Cable--->Negativo--->Pulsador--->Cable--->Resistencia--->Cable--->Arduino (PIN 2). Tierra tiene potencial de energía 0, que a través de un cable conductor está conectado a la parte negativa del circuito, que a su vez está conectado al pulsador, al que le va a llegar corriente de la parte negativa y a través de otro cable va a conectarse al pin digital (parte positiva) del arduino (pin 2). 
+Arduino (GND)--->Cable--->Negativo de Protoboard--->Pulsador--->Cable--->Arduino (PIN 2). 
+Tierra tiene potencial de energía 0, que a través de un cable conductor está conectado a la parte negativa del circuito, que a su vez está conectado al pulsador, al que le va a llegar corriente de la parte negativa y a través de otro cable va a conectarse al pin digital (parte positiva) del arduino (pin 2). 
 
 7. ¿Cuál es el principio de funcionamiento del componente?
 El principio de funcionamiento del pulsador es conectar o desconectar un circuito. 
+El princiio de funcionamiento del pulsados, es que cuandop un peaton quiera cruzar, toca y boton y el semaforo se pone en rojo.
 
 8. ¿Utiliza alguna librería particular para programarlo?
-No. Solo usamos un código c++.
+Para este componente no usamos ninguna libreria
 
 9. ¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
 Se interpreta en el programa como 1 (HIGH, el botón está pulsado) y 0 (LOW, el botón no está pulsado).
 
 10. ¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
-Hay que tener en cuenta que no haya humedad a la hora de simular, ya que fluye corriente y las partículas H20 conducen electricidad. Tambien tener en cuenta que la parte negativa del circuito esté conectado a tierra (GND) en el arduino porque tiene potencial de energía 0, por lo tanto en caso de cortocircuito o sobrecarga de energía no se queme nada.
+No.
 
 11. ¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
-Funnciona correctamente porque todos los cables están conectados correctamente. Desde el GND, un cable va hacia la parte negativa del circuito, después un cable va desde el negativo hacia el pulsador y desde el pulsador un cable hacia el PIN 2
+Lo conectaria a otro arduino el solo para saber si funciona.
 
 12. Simular en Tinkercad e incluir el link de la simulación. 
-
+https://www.tinkercad.com/things/2uIZjj4Nn3Y/editel?returnTo=%2Fdashboard&sharecode=kk6hUWTxTsil8-yvyi4I4ZBeB7Z9UIPFgya14H-SbmU
 
 13.  En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
-Espero obtener 1 si el componente funciona correctamente, mientras que obtengo 0 si el o los componentes no funcionan o el circuito está mal conectado.
+Espero obtener 1 o 0, porque es un boton entonces necesito ambos valores para saber si funciona.
 
-14. x¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+14. ¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+El componente podria fallar si esta mal conectado, y me daria cuenta porque se podrian empezar a calentar los cables.
+En cuanto a codigo, ningun programa que conoscamos te deja subir un codigo con errores, y si te deja, te das cuenta porque no funciona.

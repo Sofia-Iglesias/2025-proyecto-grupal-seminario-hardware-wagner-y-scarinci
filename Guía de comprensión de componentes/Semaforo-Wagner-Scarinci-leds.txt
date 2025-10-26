@@ -1,8 +1,8 @@
 1. ¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
-
+Actuador. Se prenden y se apagan segun cierto tiempo o segun un boton o potenciometro
 
 2. ¿Qué tipo de señal utiliza para comunicarse con Arduino?
-
+Señales digitales
 
 3. ¿Cuál es el rango de valores que puede entregar o recibir el componente?
 
