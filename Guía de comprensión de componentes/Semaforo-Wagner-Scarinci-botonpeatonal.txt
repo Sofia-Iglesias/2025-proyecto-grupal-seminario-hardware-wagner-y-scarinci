@@ -1,0 +1,46 @@
+1. ¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+El pulsador es un actuador porque tiene una parte mecánica que activa una palanca que abre o cierra el circuito, esa es su función.
+
+2. ¿Qué tipo de señal utiliza para comunicarse con Arduino?
+La señal que utiliza para comunicarse con arduino es una señal digital. 
+
+3. ¿Cuál es el rango de valores que puede entregar o recibir el componente?
+El rango de valores que puede entregar o recibir el componente es 0 y 1.
+
+4. ¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+Tiene 2 pines
+1 es el pin que lo conecta al arduino
+El otro lo conecta al GND
+
+5. ¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Usamos el pin 2 porque nos queda comodo para el circuito en general.
+
+6. Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+Arduino (GND)--->Cable--->Negativo de Protoboard--->Pulsador--->Cable--->Arduino (PIN 2). 
+Tierra tiene potencial de energía 0, que a través de un cable conductor está conectado a la parte negativa del circuito, que a su vez está conectado al pulsador, al que le va a llegar corriente de la parte negativa y a través de otro cable va a conectarse al pin digital (parte positiva) del arduino (pin 2). 
+
+7. ¿Cuál es el principio de funcionamiento del componente?
+El principio de funcionamiento del pulsador es conectar o desconectar un circuito. 
+El princiio de funcionamiento del pulsados, es que cuandop un peaton quiera cruzar, toca y boton y el semaforo se pone en rojo.
+
+8. ¿Utiliza alguna librería particular para programarlo?
+Para este componente no usamos ninguna libreria
+
+9. ¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+Se interpreta en el programa como 1 (HIGH, el botón está pulsado) y 0 (LOW, el botón no está pulsado).
+
+10. ¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+No.
+
+11. ¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Lo conectaria a otro arduino el solo para saber si funciona.
+
+12. Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/2uIZjj4Nn3Y/editel?returnTo=%2Fdashboard&sharecode=kk6hUWTxTsil8-yvyi4I4ZBeB7Z9UIPFgya14H-SbmU
+
+13.  En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Espero obtener 1 o 0, porque es un boton entonces necesito ambos valores para saber si funciona.
+
+14. ¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+El componente podria fallar si esta mal conectado, y me daria cuenta porque se podrian empezar a calentar los cables.
+En cuanto a codigo, ningun programa que conoscamos te deja subir un codigo con errores, y si te deja, te das cuenta porque no funciona.
