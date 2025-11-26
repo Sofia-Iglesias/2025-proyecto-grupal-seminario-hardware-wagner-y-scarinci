@@ -27,7 +27,7 @@ El princiio de funcionamiento del pulsados, es que cuandop un peaton quiera cruz
 Para este componente no usamos ninguna libreria
 
 9. ¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
-Se interpreta en el programa como 1 (HIGH, el botón está pulsado) y 0 (LOW, el botón no está pulsado).
+Se interpreta en el programa como 1 (HIGH, el botón está pulsado) y/o 0 (LOW, el botón no está pulsado).
 
 10. ¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
 No.
