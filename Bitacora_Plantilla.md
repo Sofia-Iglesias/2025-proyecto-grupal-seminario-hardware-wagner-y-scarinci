@@ -19,16 +19,16 @@
 **`Actividades Realizadas:`**
 
 - `Actividad 1`  :Nos corrigio las ideas, vamos a hacer 2 semaforos en forma de interseccion con 1 pulsador peatonal cada uno 1 potenciometro cada uno y un sensor de temperatra cada uno.
-- `Actividad 2`
+- `Actividad 2` Hicimos la guia de componentes y la simulacion.
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
+- `Dificultad 1`  Ninguna
 - `Dificultad 2`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
+- `Próximo paso 1`  Nada
 - `Próximo paso 2`
 
 
@@ -41,7 +41,7 @@
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
+- `Actividad 1`  Logramos terminarlo en la semana 1
 - `Actividad 2`
 
 **`Dificultades:`**

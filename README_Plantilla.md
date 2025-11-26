@@ -1,31 +1,33 @@
-# **`Nombre del Proyecto`**
+# **` Semaforo Inteligente`**
 
 `Tecnología de los Sistemas de Información - Seminario Avanzado`  
 `Ciclo Lectivo 2025`
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- `Julia Wagner` 
+- `Francisco Scarinci` 
 
 ## **`Objetivo`**
 
-`Breve descripción del propósito del proyecto. Completar una vez definido el proyecto.`
+` Un semaforo que funcione con respecto a la temperatura asi no te asas en verano`
 
 ## **`Descripción del Proyecto`**
 
-`Explicar en qué consiste y qué se busca lograr. Completar una vez definido el proyecto.`
+`Consiste en un semaforo que cuando hace mucho calor tenga menos tiempo de rojo y mas verde, y cuando haga frio sea viceversa.`
 
 ## **`Componentes`**
 
-- `Componente 1`  
-- `Componente 2`  
-- `Componente 3`
+- `Boton peatonal`  
+- `potenciometro`  
+- `Sensor de temperatura`
+- `Leds`
+- `Buzzer`
 
 `Completar una vez definido el proyecto.`
 
 ## **`Requisitos`**
-
+Ninguno
 - `Software necesario`  
 - `Librerías`  
 - `Hardware adicional`
@@ -34,15 +36,5 @@
 
 ## **`Etapas del proyecto`**
 ### Etapa 1:
-- `Acción 1`
-- `Acción 2`
-
-### Etapa 2:
-- `Acción 1`
-- `Acción 2`
-
-## **`Extras`**
-
-- `Extra 1`  
-- `Extra 2`  
-- `Extra 3`
+- `Hicimos la guia de componentes`
+- `Hicimos el codigo`
