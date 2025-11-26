@@ -32,7 +32,7 @@ No hay que tener en cuenta ninguna preocupacion eléctrica.
 Lo conectaría a otro Arduino para ver si funciona correctamente.
 
 12. Simular en Tinkercad e incluir el link de la simulación. 
-https://www.tinkercad.com/things/hYTvhkD8aXw/editel?returnTo=%2Fdashboard 
+https://www.tinkercad.com/things/hYTvhkD8aXw/editel?returnTo=%2Fdashboard&sharecode=EDb7SjSnODrHc76mvTjjyxdAYOjT2ydq1aNHrk016cA
 
 
 13. En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
