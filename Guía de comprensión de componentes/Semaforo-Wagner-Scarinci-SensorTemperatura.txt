@@ -1,0 +1,43 @@
+1. ¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Es un sensor porque su función principal es detectar la temperatura en el ambiente.
+
+2. ¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Utiliza una señal analógica.
+
+3. ¿Cuál es el rango de valores que puede entregar o recibir el componente?
+El rango de valores que puede entregar o recibir el componente es de -40°C a +125°C.
+
+4. ¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+Tiene 3 pines de conexión, uno que está conectado a GND, otro que está conectado a A0 (Analog IN 0) y el último conectado a +5V (que está conectado por cable a la parte positiva del protoboard).
+
+5. ¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Utilizamos el pin A0 para conectar el sensor de temperatura al arduino porque para empezar es un pin analógico y además nos queda cómodo.
+
+    6. Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+GND ---> Cable ---> Parte negativa del protoboard ---> Cable ---> Tierra del sensor de temperatura ---> Vout y potencia ---> Cable ---> pin A0 y parte positiva del protoboard (que está conectada por cable a +5V).
+
+7. ¿Cuál es el principio de funcionamiento del componente?
+El principio de funcionamiento del componente se basa en la transformación de una propiedad física que cambia según la temperatura del ambiente en una señal eléctrica que es medible.
+
+8. ¿Utiliza alguna librería particular para programarlo?
+No utilizamos ninguna librería particular para programarlo.
+
+9. ¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+El dato de entrada o salida que le llega al componente se interpreta como un valor numérico que representa la temperatura en grados celcius (°C)
+
+10. ¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+No hay que tener en cuenta ninguna preocupacion eléctrica.
+
+11. ¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Lo conectaría a otro Arduino para ver si funciona correctamente.
+
+12. Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/hYTvhkD8aXw/editel?returnTo=%2Fdashboard&sharecode=EDb7SjSnODrHc76mvTjjyxdAYOjT2ydq1aNHrk016cA
+
+
+13. En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+El valor que esperamos obtener en la simulación si el componente funciona correctamente es valor de voltaje o un número binario transformado por el ADC (Conversor analógico - digital) que es interpretado como grados celcius (°C).
+
+14. ¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+El componente podría fallar si está mal conectado, en el circuito nos daríamos cuenta si se quema un cable.
+Todos los programas que usamos al momento detectan errores de código, por lo que sabríamos si hay un error de código y lo mismo a la hora de resolver ese error, también nos daríamos cuenta.
